@@ -1,0 +1,511 @@
+[{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c4a"
+  },
+  "sid": 1,
+  "last_name": "Astaire",
+  "first_name": "Humphrey",
+  "major": "CIT",
+  "hrs_attempted": 10,
+  "gpa_points": 34
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c4b"
+  },
+  "sid": 2,
+  "last_name": "Bacall",
+  "first_name": "Katharine",
+  "major": "EET",
+  "hrs_attempted": 40,
+  "gpa_points": 128
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c4c"
+  },
+  "sid": 3,
+  "last_name": "Bergman",
+  "first_name": "Bette",
+  "major": "EET",
+  "hrs_attempted": 42,
+  "gpa_points": 97
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c4d"
+  },
+  "sid": 4,
+  "last_name": "Bogart",
+  "first_name": "Cary",
+  "major": "CIT",
+  "hrs_attempted": 11,
+  "gpa_points": 33
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c4e"
+  },
+  "sid": 5,
+  "last_name": "Brando",
+  "first_name": "James",
+  "major": "WEB",
+  "hrs_attempted": 59,
+  "gpa_points": 183
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c4f"
+  },
+  "sid": 6,
+  "last_name": "Cagney",
+  "first_name": "Marlon",
+  "major": "CIT",
+  "hrs_attempted": 13,
+  "gpa_points": 40
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c50"
+  },
+  "sid": 7,
+  "last_name": "Chaplin",
+  "first_name": "Fred",
+  "major": "EEt",
+  "hrs_attempted": 42,
+  "gpa_points": 126
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c51"
+  },
+  "sid": 8,
+  "last_name": "Colbert",
+  "first_name": "Audrey",
+  "major": "CIT",
+  "hrs_attempted": 16,
+  "gpa_points": 34
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c52"
+  },
+  "sid": 9,
+  "last_name": "Banderas",
+  "first_name": "Henry",
+  "major": "CIT",
+  "hrs_attempted": 18,
+  "gpa_points": 72
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c53"
+  },
+  "sid": 10,
+  "last_name": "Crawford",
+  "first_name": "Ingrid",
+  "major": "WEB",
+  "hrs_attempted": 59,
+  "gpa_points": 159
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c54"
+  },
+  "sid": 11,
+  "last_name": "Davis",
+  "first_name": "Greta",
+  "major": "CIT",
+  "hrs_attempted": 19,
+  "gpa_points": 76
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c55"
+  },
+  "sid": 12,
+  "last_name": "Dean",
+  "first_name": "Clark",
+  "major": "EET",
+  "hrs_attempted": 42,
+  "gpa_points": 168
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c56"
+  },
+  "sid": 13,
+  "last_name": "Dietrich",
+  "first_name": "Marilyn",
+  "major": "CIT",
+  "hrs_attempted": 22,
+  "gpa_points": 88
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c57"
+  },
+  "sid": 14,
+  "last_name": "Douglas",
+  "first_name": "James",
+  "major": "WEB",
+  "hrs_attempted": 61,
+  "gpa_points": 140
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c58"
+  },
+  "sid": 15,
+  "last_name": "Fonda",
+  "first_name": "Spencer",
+  "major": "CIT",
+  "hrs_attempted": 23,
+  "gpa_points": 69
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c59"
+  },
+  "sid": 16,
+  "last_name": "Fox",
+  "first_name": "Vivien",
+  "major": "EET",
+  "hrs_attempted": 44,
+  "gpa_points": 110
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c5a"
+  },
+  "sid": 17,
+  "last_name": "Gable",
+  "first_name": "Antonio",
+  "major": "WEB",
+  "hrs_attempted": 61,
+  "gpa_points": 232
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c5b"
+  },
+  "sid": 18,
+  "last_name": "Garbo",
+  "first_name": "Elizabeth",
+  "major": "EET",
+  "hrs_attempted": 44,
+  "gpa_points": 128
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c5c"
+  },
+  "sid": 19,
+  "last_name": "Gardner",
+  "first_name": "Judy",
+  "major": "EET",
+  "hrs_attempted": 45,
+  "gpa_points": 113
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c5d"
+  },
+  "sid": 20,
+  "last_name": "Garland",
+  "first_name": "Marlene",
+  "major": "EET",
+  "hrs_attempted": 47,
+  "gpa_points": 103
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c5e"
+  },
+  "sid": 21,
+  "last_name": "Grant",
+  "first_name": "Gary",
+  "major": "CIT",
+  "hrs_attempted": 24,
+  "gpa_points": 96
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c5f"
+  },
+  "sid": 22,
+  "last_name": "Harlow",
+  "first_name": "Barbara",
+  "major": "WEB",
+  "hrs_attempted": 25,
+  "gpa_points": 83
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c60"
+  },
+  "sid": 23,
+  "last_name": "Hayworth",
+  "first_name": "Claudette",
+  "major": "WEB",
+  "hrs_attempted": 63,
+  "gpa_points": 151
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c61"
+  },
+  "sid": 24,
+  "last_name": "Hepburn",
+  "first_name": "Ginger",
+  "major": "CIT",
+  "hrs_attempted": 25,
+  "gpa_points": 90
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c62"
+  },
+  "sid": 25,
+  "last_name": "Hepburn",
+  "first_name": "Grace",
+  "major": "CIT",
+  "hrs_attempted": 27,
+  "gpa_points": 103
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c63"
+  },
+  "sid": 26,
+  "last_name": "Holden",
+  "first_name": "Gregory",
+  "major": "CIT",
+  "hrs_attempted": 28,
+  "gpa_points": 112
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c64"
+  },
+  "sid": 27,
+  "last_name": "Johansson",
+  "first_name": "Sofia",
+  "major": "CIT",
+  "hrs_attempted": 32,
+  "gpa_points": 125
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c65"
+  },
+  "sid": 28,
+  "last_name": "Keaton",
+  "first_name": "John",
+  "major": "CIT",
+  "hrs_attempted": 35,
+  "gpa_points": 67
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c66"
+  },
+  "sid": 29,
+  "last_name": "Vergara",
+  "first_name": "Rita",
+  "major": "WEB",
+  "hrs_attempted": 26,
+  "gpa_points": 23
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c67"
+  },
+  "sid": 30,
+  "last_name": "Kelly",
+  "first_name": "Mae",
+  "major": "WEB",
+  "hrs_attempted": 66,
+  "gpa_points": 145
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c68"
+  },
+  "sid": 31,
+  "last_name": "Lancaster",
+  "first_name": "Gene",
+  "major": "EET",
+  "hrs_attempted": 51,
+  "gpa_points": 153
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c69"
+  },
+  "sid": 32,
+  "last_name": "Lombard",
+  "first_name": "Lillian",
+  "major": "EET",
+  "hrs_attempted": 52,
+  "gpa_points": 140
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c6a"
+  },
+  "sid": 33,
+  "last_name": "Loren",
+  "first_name": "Penelope",
+  "major": "EET",
+  "hrs_attempted": 52,
+  "gpa_points": 198
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c6b"
+  },
+  "sid": 34,
+  "last_name": "Marx",
+  "first_name": "James",
+  "major": "CIT",
+  "hrs_attempted": 36,
+  "gpa_points": 137
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c6c"
+  },
+  "sid": 35,
+  "last_name": "Mitchum",
+  "first_name": "Burt",
+  "major": "EET",
+  "hrs_attempted": 55,
+  "gpa_points": 110
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c6d"
+  },
+  "sid": 36,
+  "last_name": "Monroe",
+  "first_name": "Rita",
+  "major": "WEB",
+  "hrs_attempted": 66,
+  "gpa_points": 172
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c6e"
+  },
+  "sid": 37,
+  "last_name": "Mork",
+  "first_name": "Orson",
+  "major": "WEB",
+  "hrs_attempted": 66,
+  "gpa_points": 158
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c6f"
+  },
+  "sid": 38,
+  "last_name": "Olivier",
+  "first_name": "Chico",
+  "major": "EET",
+  "hrs_attempted": 56,
+  "gpa_points": 134
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c70"
+  },
+  "sid": 39,
+  "last_name": "Peck",
+  "first_name": "Groucho",
+  "major": "CIT",
+  "hrs_attempted": 37,
+  "gpa_points": 100
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c71"
+  },
+  "sid": 40,
+  "last_name": "Lu",
+  "first_name": "Lauren",
+  "major": "EET",
+  "hrs_attempted": 56,
+  "gpa_points": 151
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c72"
+  },
+  "sid": 41,
+  "last_name": "Poitier",
+  "first_name": "Harpo",
+  "major": "CIT",
+  "hrs_attempted": 37,
+  "gpa_points": 115
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c73"
+  },
+  "sid": 42,
+  "last_name": "Hayek",
+  "first_name": "Sophia",
+  "major": "WEB",
+  "hrs_attempted": 68,
+  "gpa_points": 150
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c74"
+  },
+  "sid": 43,
+  "last_name": "Stanwyck",
+  "first_name": "Jean",
+  "major": "WEB",
+  "hrs_attempted": 69,
+  "gpa_points": 110
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c75"
+  },
+  "sid": 44,
+  "last_name": "Stewart",
+  "first_name": "Buster",
+  "major": "WEB",
+  "hrs_attempted": 70,
+  "gpa_points": 161
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c76"
+  },
+  "sid": 45,
+  "last_name": "Cruz",
+  "first_name": "Lucy",
+  "major": "WEB",
+  "hrs_attempted": 70,
+  "gpa_points": 224
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c77"
+  },
+  "sid": 46,
+  "last_name": "Temple",
+  "first_name": "Mary",
+  "major": "WEB",
+  "hrs_attempted": 74,
+  "gpa_points": 141
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c78"
+  },
+  "sid": 47,
+  "last_name": "Theron",
+  "first_name": "Emma",
+  "major": "CIT",
+  "hrs_attempted": 39,
+  "gpa_points": 70
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c79"
+  },
+  "sid": 48,
+  "last_name": "Tracy",
+  "first_name": "Sidney",
+  "major": "WEB",
+  "hrs_attempted": 74,
+  "gpa_points": 155
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c7a"
+  },
+  "sid": 49,
+  "last_name": "Wayne",
+  "first_name": "Robert",
+  "major": "CIT",
+  "hrs_attempted": 39,
+  "gpa_points": 133
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c7b"
+  },
+  "sid": 50,
+  "last_name": "Welles",
+  "first_name": "William",
+  "major": "CIT",
+  "hrs_attempted": 40,
+  "gpa_points": 68
+},{
+  "_id": {
+    "$oid": "642f304b7a8a771541e37c7c"
+  },
+  "sid": 51,
+  "last_name": "West",
+  "first_name": "Selma",
+  "major": "EET",
+  "hrs_attempted": 56,
+  "gpa_points": 174
+}]

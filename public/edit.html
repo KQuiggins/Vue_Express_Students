@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<script src="https://unpkg.com/vue@next"></script>
+		<script defer src="js/edit.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<title>Students</title>
+	</head>
+	<body>
+		<div class="container" id="editApp">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">Class Website</a>
+					</div>
+					<div>
+						<ul class="nav navbar-nav">
+							<li>
+								<a id="home" href="/">Home</a>
+							</li>
+							<li class="active">
+								<a id="menu3" href="edit.html">Edit</a>
+							</li>
+							<li>
+								<a id="menu3" href="add.html">Add</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</nav>
+
+			<!-- end nav-bar -->
+			<h1>Edit Student Information</h1>
+
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="sid" class="col-sm-2 control-label"
+						>Student ID:</label
+					>
+					<div class="col-sm-10">
+						<input
+							type="text"
+							class="form-control"
+							id="sid"
+							v-model="student.sid"
+							readonly
+						/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="first_name" class="col-sm-2 control-label"
+						>First Name:</label
+					>
+					<div class="col-sm-10">
+						<input
+							type="text"
+							class="form-control"
+							id="first_name"
+							v-model="student.first_name"
+							readonly
+						/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="last_name" class="col-sm-2 control-label"
+						>Last Name:</label
+					>
+					<div class="col-sm-10">
+						<input
+							type="text"
+							class="form-control"
+							id="last_name"
+							v-model="student.last_name"
+							readonly
+						/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="major" class="col-sm-2 control-label"
+						>Major:</label
+					>
+					<div class="col-sm-10">
+						<input
+							type="text"
+							class="form-control"
+							id="major"
+							v-model="student.major"
+						/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="gpa_points" class="col-sm-2 control-label"
+						>GPA Points:</label
+					>
+					<div class="col-sm-10">
+						<input
+							type="text"
+							class="form-control"
+							id="gpa_points"
+							v-model="student.gpa_points"
+						/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="hrs_attempted" class="col-sm-2 control-label"
+						>Hours Attempted:</label
+					>
+					<div class="col-sm-10">
+						<input
+							type="text"
+							class="form-control"
+							id="hrs_attempted"
+							v-model="student.hrs_attempted"
+						/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<div class="row">
+							<div class="col-md-6">
+								<button
+									type="submit"
+									class="btn btn-primary btn-block"
+									v-on:click.prevent="updateStudentRecord"
+								>
+									Update
+								</button>
+							</div>
+							<div class="col-md-6" style="padding-left: 5px">
+								<button
+									type="button"
+									class="btn btn-danger btn-block"
+									v-on:click.prevent="deleteStudentRecord"
+								>
+									Delete
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+
+			<br /><br />
+			<p v-if="status" class="alert alert-success">{{ status }}</p>
+
+			<div class="btn-group btn-group-lg" role="group">
+				<button
+					type="button"
+					class="btn btn-primary btn-block"
+					v-on:click.prevent="prevStudent"
+				>
+					Previous
+				</button>
+				<button
+					type="button"
+					class="btn btn-primary btn-block"
+					v-on:click.prevent="nextStudent"
+				>
+					Next
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
