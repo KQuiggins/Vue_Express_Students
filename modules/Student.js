@@ -1,6 +1,13 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-mongoose.connect('mongodb://127.0.0.1:27017/CIT321');
+
+
+// development connection string
+// mongoose.connect('mongodb://127.0.0.1:27017/CIT321');
+
+// production connection string
+mongoose.connect(process.env.MONGODB_URI);
 
 const studentSchema = new mongoose.Schema({
     sid: {type: Number, required: true, unique: true},
