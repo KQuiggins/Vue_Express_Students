@@ -88,7 +88,7 @@ let app = Vue.createApp({
                     this.status = 'An error occurred while deleting the student record.';
                 }
         
-                this.status = await response.text();
+                // this.status = await response.text();
                 this.getStudents().then(() => {
                     this.idx = 0;
                     this.student = this.allStudents[this.idx];
